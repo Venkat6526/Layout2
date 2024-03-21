@@ -19,6 +19,7 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
  <Box bgcolor={"background.default"} color={"text.primary"}>
+  <Box  sx={{backgroundColor:"red",height:"8px",width:"100%"}}></Box>
        <Navbar  setMode={setMode} mode={mode}/>
       {/* box is acting like a div in material ui */}
       <Stack direction={"row"} spacing={2} justifyContent={"space-between"}>
